@@ -7,7 +7,7 @@ I'm currently creating a bash file to install an apache & samba server on a rasp
 ...
 
 ## List of files:
-- [x] samba.conf
+- [x] smb.conf
 
 <!---
 Geeroy92/Geeroy92 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
