@@ -1,8 +1,12 @@
-Welcome to my GitHub Page.  
+# Welcome to my GitHub Page.  
 For now this is only for testing purposes.  
 I'm currently creating a bash file to install an apache & samba server on a raspberry pi.
 
-# List of files:
+## How to install:
+
+...
+
+## List of files:
 - [x] samba.conf
 
 <!---
