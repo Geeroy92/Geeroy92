@@ -5,7 +5,6 @@ I'm currently creating a bash file to install an apache & samba server on a rasp
 ## How to install:
 
 **_sudo apt-get install -y git_**				    #Installing git for downloading content from github  
-**_sudo mkdir home/git_**								    #Creating downloadpath  
 **_cd /home/git/Geeroy92/_**						    #Navigating in downloadpath  
 **_sudo bash Apache_Samba_Install.sh_**  		#Starting bashfile  
 
