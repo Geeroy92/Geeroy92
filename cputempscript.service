@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 ExecStart=python3 -u /home/git/code/cputempv2.py
-WorkingDirectory=/home/git/code/cputempv2.py
+WorkingDirectory=/home/git/code/
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
