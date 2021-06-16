@@ -4,6 +4,7 @@ from time import sleep
 
 while True:
 
+    print("Entering Loop")
     with open('/sys/class/thermal/thermal_zone0/temp', 'r') as f:
         temp = f.read()
         temp = float(temp) / 1000
@@ -26,5 +27,5 @@ while True:
     data = ''.join(data)
     with open('/var/www/html/index.html', 'w') as file:
         file.write(data)
-
+        print("Wrote Temp to HTML")
     sleep(2)
