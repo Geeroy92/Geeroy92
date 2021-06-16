@@ -12,8 +12,6 @@ sudo apt-get install -y apache2 samba samba-common smbclient #installiert apache
 #Diese Datei ist in der Vorkonfiguration äußerst umfangreich und dadurch unübersichtlich.
 #Für eine einfache Grundkonfiguration empfiehlt sich die Datei umzubenennen und neu zu erstellen.
 
-sudo git clone https://github.com/Geeroy92/Geeroy92.git /home/git/code #Lädt Dateien von Github
-
 sudo chmod 777 -R /home/git/
 
 sudo cp /home/git/code/smb.conf /etc/samba/ #Kopiert die Datei aus dem Downloadordner an die richtige Stelle.
