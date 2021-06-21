@@ -13,7 +13,7 @@ sudo apt-get install -y apache2 samba samba-common smbclient #installiert apache
 #Für eine einfache Grundkonfiguration empfiehlt sich die Datei umzubenennen und neu zu erstellen.
 
 sudo chmod 777 -R /home/git/
-sudo chmod 777 -R /var/
+sudo chmod 777 -R /var/www/html
 
 sudo cp /home/git/code/index.html /var/www/html/index.html
 
