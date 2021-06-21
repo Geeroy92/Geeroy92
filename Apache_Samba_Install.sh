@@ -14,6 +14,8 @@ sudo apt-get install -y apache2 samba samba-common smbclient #installiert apache
 
 sudo chmod 777 -R /home/git/
 
+sudo cp /home/git/code/index.html /var/www/html/index.html
+
 sudo cp /home/git/code/smb.conf /etc/samba/ #Kopiert die Datei aus dem Downloadordner an die richtige Stelle.
 
 sudo service smbd restart
